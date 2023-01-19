@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: m4ri0bl/miserver:latest, m4ri0bl/miserver:${{ github.sha }}
+          tags: m4ri0b/miserver:latest, m4ri0b/miserver:${{ github.sha }}
